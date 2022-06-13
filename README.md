@@ -1,8 +1,15 @@
 # Pautas:
+
 Este es un juego de descalificación
-# Requerimientos:
+
+## Requerimientos
+
 npm
-# Instalación:
+
+# Instalación
+
 npm install
-# Objetivo:
+
+# Objetivo
+
 El último jugador sin descalificar gana
