@@ -1,0 +1,11 @@
+@import url("./resetCss.css");
+@import url("./header.css");
+@import url("./inputName.css");
+@import url("./buttons.css");
+
+body{
+    background-color: white;
+}
+
+
+
