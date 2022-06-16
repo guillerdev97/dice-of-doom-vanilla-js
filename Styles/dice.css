@@ -1,0 +1,16 @@
+.output-name{
+    margin:auto;
+    display: flex;
+    background-color: red;
+    width: 30%;
+    height: 110px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+output{
+    display: flex;
+    align-items: center;
+    font-family:arial;
+    font-weight: bold;
+}
