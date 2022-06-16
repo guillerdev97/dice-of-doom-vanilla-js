@@ -1,8 +1,11 @@
 @import url("./dice.css");
 @import url('./playerList.css');
-@import url('./normalize.css');
+@import url("./resetCss.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@800&display=swap');
-
+@import url("./header.css");
+@import url("./inputName.css");
+@import url("./littleButtons.css");
+@import url("./doButton.css");
 
 html {
     box-sizing: border-box;
@@ -11,3 +14,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+
+body{
+    background-color: white;
+}
+
+
+
