@@ -1,0 +1,13 @@
+.dice-button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+img {
+    width: 70px;
+    height: 70px;
+}
