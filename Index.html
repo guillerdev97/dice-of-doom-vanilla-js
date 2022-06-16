@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Roll The Dice </title>
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <h1>Roll The Dice</h1>
+            <picture></picture>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="output-name">
+                <output id="discarded-player"></output>
+            </section>
+            <section class="dice-button">
+                <button id="do-dice" type="button"></button>
+            </section>
+            <section class="input-name">
+                <input id="new-player" type="text" placeholder="add Player" required>
+            </section>
+            <section class="little-buttons">
+                <button id="add-player" name="add" type="button">send</button>
+                <button id="remove-player" type="button"></button>
+                <button id="refresh" type="button"></button>
+            </section>
+            <section class="players-lists">
+                <ul  id="current-players"><h3>current-players</h3>
+                    
+                </ul>
+                <ul id="dismissed-players"> <h3>dismissed-players</h3>
+                    
+                </ul>
+                <ul id="winner"><h3 class="win">winner</h3> 
+                    <li>david</li>  
+                </ul>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <h2>Good Luck Coders</h2>
+    </footer>
+
+
+    <script src="./js/script.js" type="module"></script>
 </body>
+
 </html>
