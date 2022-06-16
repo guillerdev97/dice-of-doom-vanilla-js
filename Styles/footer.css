@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@800&display=swap');
+
+footer{
+    height: 75px;
+    width: 100%;
+    background-color: #9109cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-stroke: 2px #AA4EF2;
+    text-shadow:
+		0 0 3px rgba(0,178,255,1),
+		0 0 5px rgba(0,178,255,1),
+		0 0 5px rgba(0,178,255,1),
+		0 0 5px rgba(38,104,127,1);
+        letter-spacing: 1px;
+}
