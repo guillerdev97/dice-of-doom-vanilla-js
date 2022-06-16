@@ -1,0 +1,61 @@
+.players-lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+}
+
+ul {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 28vw;
+    height: 40vw;
+    background-color: #34B49D;
+    margin-top: 2rem;
+}
+
+ul {
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #9109FC;
+    border-radius: 1.5rem;
+    padding: 0.4em;
+    box-shadow: 0 0 0.1rem #f0f0f0, 0 0 0.1rem #9109FC, 0 0 1rem #9109FC, 0 0 0.1rem #9109FC, 0 0 1rem #9109FC, inset 0 0 1rem #9109FC;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow:
+        0 0 3px rgba(0, 178, 255, 1),
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 5px rgba(38, 104, 127, 1);
+        text-align: center;
+        color: #9109FC;
+}
+
+
+li {
+    display: block;
+    font-size: 1.2rem;
+}
+
+
+h3 {
+    font-size: 1.7rem;
+    margin: auto;
+    padding-top: 0.3rem;
+    padding-bottom: 0.4rem; 
+    margin-bottom: 1.2rem;   
+    border-bottom: 1px solid;
+}
+
+.win {
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-bottom:0.5rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+

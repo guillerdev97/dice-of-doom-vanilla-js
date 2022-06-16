@@ -1,0 +1,36 @@
+.little-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 10vw;
+    height: 10vw;
+    gap: 2rem;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+#add-player,
+#remove-player,
+#refresh {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    border: #23BEA2 solid 1px;
+}
+#remove-player,
+#add-player,
+#refresh:hover {
+    cursor: pointer;
+}
+
+
+
+
+img {
+    margin-top: 0.2rem;
+    width: 2.1vw;
+    height: 2.2vw;   
+}
