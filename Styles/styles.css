@@ -2,7 +2,9 @@
 @import url("./header.css");
 @import url("./inputName.css");
 @import url("./buttons.css");
-
+@import url("./playersLists.css");
+@import url("./dice.css");
+@import url("./doButton.css");
 body{
     background-color: white;
 }
