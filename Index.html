@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>ROLL THE DICE</title>
 </head>
 <body>
-    
+    <header>
+        <div>
+            <h1>ROLL THE DICE !!!</h1>
+            <picture></picture>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="output-name">
+                <output type="text" id="discarded-player">Guillermo</output>
+            </section>
+            <section class="dice-button">
+                <button id="do-dice" type="button"></button>
+            </section>
+            <section class="input-name">
+                <input type="text" id="new-player-name">
+            </section>
+            <section class="little-buttons">
+                <button id="add-player" type="button"></button>   
+                <button id="remove-player" type="button"></button>   
+                <button id="refresh" type="button"></button>   
+            </section>
+            <section class="players-lists">
+                <li id="current-players">
+                    <label for="currentPlayers">CURRENT PLAYERS</label>
+                    <ul></ul>
+                </li>
+                <li id="dismissed-players">
+                    <label for="dismissedPlayers">DISMISSED PLAYERS</label>
+                    <ul></ul>
+                </li>
+                <li id="winner">
+                    <label for="winner">WINNER!!!</label>
+                    <ul></ul>
+                </li>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <h2>GOOD LUCK CODERS</h2>
+    </footer>
+
+
+
+    <script src="./js/script.js" type="module"></script>
 </body>
 </html>
