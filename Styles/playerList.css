@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@800&display=swap');
+
 .players-lists {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 250px;
     margin: auto;
 }
 
 ul {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    margin: auto;
+    width: 17%;
+    height: 150px;
+    background-color: #34B49D;
     border: 1px solid;
     border-radius: 15px;
-    width: 28vw;
-    height: 40vw;
-    background-color: #34B49D;
-    margin-top: 2rem;
+    overflow-x: hidden;
 }
 
 ul {
@@ -21,16 +23,11 @@ ul {
     border: 0.2rem solid #9109FC;
     border-radius: 1.5rem;
     padding: 0.4em;
-    box-shadow: 0 0 0.1rem #f0f0f0, 0 0 0.1rem #9109FC, 0 0 1rem #9109FC, 0 0 0.1rem #9109FC, 0 0 1rem #9109FC, inset 0 0 1rem #9109FC;
+    box-shadow: 0 0 0.1rem #f0f0f0, 0 0 0.1rem #9109FC, 0 0 1rem #9109FC, inset 0 0 1rem #9109FC;
 }
 
 ul {
     font-family: 'Open Sans', sans-serif;
-    text-shadow:
-        0 0 3px rgba(0, 178, 255, 1),
-        0 0 5px rgba(0, 178, 255, 1),
-        0 0 5px rgba(0, 178, 255, 1),
-        0 0 5px rgba(38, 104, 127, 1);
         text-align: center;
         color: #9109FC;
 }
@@ -38,7 +35,10 @@ ul {
 
 li {
     display: block;
-    font-size: 1.2rem;
+    font-size: 16px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-bottom: 1px solid #227566;
 }
 
 
@@ -51,11 +51,98 @@ h3 {
     border-bottom: 1px solid;
 }
 
-.win {
+.winner {
     font-size: 2.2rem;
     padding-top: 1rem;
     padding-bottom:0.5rem;
     margin: auto;
     margin-bottom: 3rem;
 }
+
+
+
+
+@media(max-width: 1037px) {
+    ul{
+        width: 19%;
+    height: 155px;
+    }
+}
+@media(max-width: 950px) {
+    ul{
+        width: 23%;
+    height: 165px;
+    font-size: 1rem;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+@media(max-width: 850px) {
+    ul{
+        width: 24%;
+    height: 168px;
+    font-size: 1rem;
+    }
+}
+@media(max-width: 693px) {
+    ul{
+        width: 25%;
+    height: 168px;
+    font-size: .9rem;
+    }
+    li{
+        font-size: 12px;
+    }
+}
+@media(max-width: 595px) {
+    ul{
+        width: 27%;
+    height: 172px;
+    font-size: .8rem;
+    }
+}
+@media(max-width: 595px) {
+    ul{
+        width: 27%;
+    height: 160px;
+    font-size: .8rem;
+    }
+}
+@media(max-width: 423px) {
+    .players-lists{
+        width: 95%;
+    }
+    ul{
+        width: 27%;
+    height: 160px;
+    font-size: .8rem;
+    }
+    li{
+        font-size: 11px;
+    }
+}
+@media(max-width: 390px) {
+    .players-lists{
+        width: 97%;
+    }
+    ul{
+        width: 27%;
+    height: 145px;
+    font-size: .6rem;
+    }
+}
+@media(max-width: 323px) {
+    .players-lists{
+        width: 97%;
+        height: 200px;
+    }
+    ul{
+        width: 28%;
+    height: 143px;
+    font-size: .6rem;
+    }
+}
+
+
 

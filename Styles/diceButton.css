@@ -1,13 +1,70 @@
 .dice-button{
+    width: 15%;
+    height: 70px;
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 button{
     background-color: transparent;
     border: none;
 }
 img {
-    width: 70px;
-    height: 70px;
+    width: 45px;
+    height: 45px;
+}
+img:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 1100px) {
+    img{
+        width: 42px;
+    height: 42px;
+    }
+}
+
+
+
+@media(max-width: 900px) {
+    img{
+        width: 39px;
+    height: 39px;
+    }
+}
+
+
+@media(max-width: 700px) {
+    img{
+        width: 36px;
+    height: 36px;
+    }
+}
+@media(max-width: 550px) {
+    img{
+        width: 33px;
+    height: 33px;
+    }
+    .dice-button{
+        height: 60px;
+    }
+}
+@media(max-width: 450px) {
+    img{
+        width: 30px;
+    height: 30px;
+    }
+    .dice-button{
+        height: 55px;
+    }
+}
+@media(max-width: 320px) {
+    img{
+        width: 25px;
+    height: 25px;
+    }
+    .dice-button{
+        height: 50px;
+    }
 }

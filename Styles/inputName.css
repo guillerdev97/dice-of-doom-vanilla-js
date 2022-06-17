@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@800&display=swap');
 .input-name{
     display: flex;
     justify-content: center;
@@ -32,6 +33,7 @@
     }
     #new-player-name{
         height: 30px;
+        font-size: 13px;
     }
 }
 @media(max-width: 630px) {
@@ -44,15 +46,17 @@
 }
 @media(max-width: 520px) {
     .input-name{
-        margin-bottom: -25px;
+        margin-bottom: -20px;
     }
     #new-player-name{
         height: 25px;
+        font-size: 11px;
     }
 }
 @media(max-width: 475px) {
     .input-name{
-        margin-bottom: -30px;
+        margin-bottom: -20px;
+        height: 75px;
     }
     #new-player-name{
         height: 25px;
@@ -60,17 +64,21 @@
 }
 @media(max-width: 430px) {
     .input-name{
-        margin-bottom: -30px;
+        margin-bottom: -20px;
+        height: 70px;
     }
     #new-player-name{
         height: 25px;
+        font-size: 9px;
     }
 }
 @media(max-width: 380px) {
     .input-name{
-        margin-bottom: -30px;
+        margin-bottom: -20px;
+        height: 60px;
     }
     #new-player-name{
         height: 22px;
+        font-size: 9px;
     }
 }
