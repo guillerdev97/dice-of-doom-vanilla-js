@@ -74,4 +74,37 @@ function displayWinner(){
 
 
 
- 
+ //reset pagina 
+
+const btnRefresh = resetPlayers();
+
+function resetPlayers() {
+    const refresh = document.getElementById("refresh");
+    refresh.addEventListener('click', _ => {
+        location.reload();
+    })
+}
+
+
+//eliminar un jugador
+
+const removeChild = document.getElementById("remove-player");
+const removeFromPlayerList = document.querySelector("#current-players");
+console.log(removeFromPlayerList)
+
+removeChild.addEventListener("click", capturandoYEliminadoElJugador);
+
+function capturandoYEliminadoElJugador(){
+    capturandoElUltimoJugador();
+    eliminandoElUltimoJugador();
+}
+
+function capturandoElUltimoJugador(){
+    const capturadoElUltimoPl = removeFromPlayerList.lastChild;
+    console.log(capturadoElUltimoPl)
+}
+
+function eliminandoElUltimoJugador(){
+    const eliminaElUltimoJugador = removeFromPlayerList.parentNode.removeChild(eliminandoElUltimoJugador)
+    console.alert(eliminaElUltimoJugador)
+}
