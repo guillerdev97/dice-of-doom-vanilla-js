@@ -12,8 +12,10 @@ This program works completely locally. Just clone the repository and open in you
 
 ## Versions
 
-**main:** final and stable version of the collaborative project.
-**v2.0:** my own version starting from stable main version.
+**main:** final and stable version of the collaborative project.<br>
+**develop:** develop branch of main.<br>
+**v2.0:** my own version starting from stable main version.<br>
+**develop2.0:** develop branch of v2.0.
 
 ## Credits
 
