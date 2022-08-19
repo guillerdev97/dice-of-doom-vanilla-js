@@ -12,11 +12,12 @@ This program works completely locally. Just clone the repository and open in you
 
 ## Versions
 
-**Main:** final and stable version of the collaborative project.
+**main:** final and stable version of the collaborative project.
+**v2.0:** my own version starting from stable main version.
 
 ## Credits
 
-**Authors:** 
+**Authors:**<br>
 Kerim Ozkan - [ozknkrm](https://github.com/ozknkrm)<br>
 David Soto - [JDDeveloper1](https://github.com/JDDeveloper1)<br>
 Guillermo García - [guillerdev97](https://github.com/guillerdev97)
