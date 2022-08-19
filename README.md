@@ -6,15 +6,19 @@ An elimination game using vanilla JS.
 It is a selection system of sacrifices in a fair and random way.
 The winner is the last player in game.
 
-# Run locally
+## Run locally
 
 This program works completely locally. Just clone the repository and open in your browser.
+
+## Versions
+
+**Main:** final and stable version of the collaborative project.
 
 ## Credits
 
 **Authors:** 
-Kerim Ozkan - [ozknkrm](https://github.com/ozknkrm)
-David Soto - [JDDeveloper1](https://github.com/JDDeveloper1)
+Kerim Ozkan - [ozknkrm](https://github.com/ozknkrm)<br>
+David Soto - [JDDeveloper1](https://github.com/JDDeveloper1)<br>
 Guillermo García - [guillerdev97](https://github.com/guillerdev97)
 ## License
 
