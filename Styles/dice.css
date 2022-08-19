@@ -1,16 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@800&display=swap');
+
 .output-name{
-    margin:auto;
     display: flex;
-    background-color: red;
-    width: 30%;
-    height: 110px;
-    border-radius: 20px;
     justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 22%;
+    height: 225px;
+    margin-top: 33px;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.output-name > output{
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-output{
-    display: flex;
-    align-items: center;
-    font-family:arial;
-    font-weight: bold;
+
+
+/* media queries */
+@media(max-width: 1000px) {
+    .output-name{
+        width: 25%;
+        height: 190px;
+    }
+}
+@media(max-width: 890px) {
+    .output-name{
+        width: 25%;
+        height: 180px;
+        margin-top: 33px;
+    margin-bottom: 15px;
+    }
+}
+@media(max-width: 750px) {
+    .output-name{
+        width: 27%;
+        height: 185px;
+        margin-top: 33px;
+    margin-bottom: 12px;
+    }
+    .output-name > output{
+        font-size: 20px;
+    }
+}
+@media(max-width: 630px) {
+    .output-name{
+        width: 29%;
+        height: 165px;
+        margin-top: 33px;
+    margin-bottom: 10px;
+    }
+    output{
+        font-size: 17px;
+    }
+}
+@media(max-width: 560px) {
+    .output-name{
+        width: 32%;
+        height: 160px;
+    }
+    .output-name > output{
+        font-size: 17px;
+    }
+}
+@media(max-width: 500px) {
+    .output-name{
+        width: 32%;
+        height: 145px;
+        margin-top: 22px;
+    margin-bottom: 8px;
+    }
+    .output-name > output{
+        font-size: 17px;
+    }
+}
+@media(max-width: 470px) {
+    .output-name{
+        width: 34%;
+        height: 140px;
+    }
+    .output-name > output{
+        font-size: 16px;
+    }
+}
+@media(max-width: 420px) {
+    .output-name{
+        width: 34%;
+        height: 120px;
+        margin-bottom: 6px;
+    }
+    .output-name > output{
+        font-size: 14px;
+    }
+}
+@media(max-width: 380px) {
+    .output-name{
+        width: 36%;
+        height: 110px;
+    }
+    .output-name > output{
+        font-size: 14px;
+    }
 }

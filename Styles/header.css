@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Open+Sans:wght@800&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: #9109FC;
+}
+header>div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+header>div>h1 {
+    margin-left: 31px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 2px #AA4EF2;
+    text-shadow:
+        0 0 3px rgba(0, 178, 255, 1),
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 5px rgba(0, 178, 255, 1),
+        0 0 5px rgba(38, 104, 127, 1);
+}
+header>div>picture>img {
+    height: 85px;
+    margin-left: -20px;
+}
+
+/* media queries */
+ @media(max-width: 1030px) {
+    header>div>h1 {
+        font-size: 70px;
+    }
+    header>div>picture>img {
+        height: 80px;
+    }
+}
+@media(max-width: 880px) {
+    header>div>h1 {
+        font-size: 63px;
+    }
+    header>div>picture>img {
+        height: 72px;
+    }
+}
+@media(max-width: 770px) {
+    header{
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    header>div>h1 {
+        font-size: 58px;
+        margin-right: -15px;
+    }
+    header>div>picture>img {
+        height: 63px;
+        margin-right: -15px;
+    }
+}
+@media(max-width: 680px) {
+    header{
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    header>div>h1 {
+        font-size: 53px;
+        margin-right: -20px;
+    }
+    header>div>picture>img {
+        height: 58px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 630px) {
+    header{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    header>div>h1 {
+        font-size: 49px;
+        margin-right: -20px;
+    }
+    header>div>picture>img {
+        height: 54px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 580px) {
+    header{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    header>div>h1 {
+        font-size: 45px;
+        margin-right: -20px;
+    }
+    header>div>picture>img {
+        height: 50px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 520px) {
+    header{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    header>div>h1 {
+        font-size: 41px;
+        margin-right: -20px;
+    }
+    header>div>picture>img {
+        height: 46px;
+        width: 40px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 475px) {
+    header{
+        height: 140px;
+       /*  border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px; */
+    }
+    header>div>h1 {
+        font-size: 37px;
+        margin-right: -20px;
+    }
+    header>div>picture>img {
+        height: 42px;
+        width: 40px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 430px) {
+    header{
+        height: 130px;
+        /* border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px; */
+    }
+    header>div>h1 {
+        font-size: 32px;
+        margin-right: -20px;
+    }
+
+    header>div>picture>img {
+        height: 39px;
+        width: 40px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 380px) {
+    header{
+        height: 125px;
+       /*  border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px; */
+    }
+    header>div>h1 {
+        font-size: 29px;
+        margin-right: -20px;
+    }
+
+    header>div>picture>img {
+        height: 36px;
+        width: 40px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 335px) {
+    header{
+        height: 117px;
+       /*  border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px; */
+    }
+    header>div>h1 {
+        font-size: 27px;
+        margin-right: -20px;
+    }
+
+    header>div>picture>img {
+        height: 35px;
+        width: 40px;
+        margin-right: -20px;
+    }
+} 
+@media(max-width: 316px) {
+    header{
+        height: 115px;
+       /*  border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; */
+    }
+    header>div>h1 {
+        font-size: 26px;
+        margin-right: -20px;
+    }
+    header>div>picture>img {
+        height: 34px;
+        width: 40px;
+        margin-right: -20px;
+    }
+} 
